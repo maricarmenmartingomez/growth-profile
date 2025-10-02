@@ -1,14 +1,11 @@
 ---
 layout: home
-title: Growth Theme
+permalink: "/"
+title: "Jekyll Lever"
 description: "Lever is minimal personal/bio/portfolio theme for Hugo."
+
 meta_description: "Jekyll Lever is a premium Jekyll SAAS theme"
 meta_title: Jekyll Lever - Premium SAAS Theme
-
-intro_image: "images/illustrations/pointing.svg"
-intro_image_absolute: false
-intro_image_hide_on_mobile: false
-show_call_box: false
 
 lead:
   enabled: true
@@ -27,5 +24,24 @@ lead:
       external: true
       dot: "#46e385" # you can use any color
 
+work:
+  enabled: true
+  heading: "Featured Work"
+  description: "A collection of my projects, articles, notes, podcasts, talks and more"
+  show_view_all: false
+  limit: 12
+  sort_by: "date" # "date", "weight"
+  columns: 3
 
+cta:
+  enabled: true
+  heading: "Kickstart your Hugo website"
+  description: "Get your own portfolio up and running in hours with our premium template."
+  email: james@domain.com
+  phone: "+61 048 711 800"
+  buttons:
+  - button: 
+    url: "https://www.zerostatic.io/theme/hugo-lever/"
+    text: "Buy theme"
+    external: true
 ---
